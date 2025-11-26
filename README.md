@@ -5,11 +5,11 @@ A Claude Code slash command for implementing features from GitHub issues.
 ## Installation
 
 ```bash
-# Clone to your claude-commands directory
-git clone git@github.com:claude-commands/command-add-feature.git ~/projects/claude-commands/command-add-feature
+# Clone to your preferred location
+git clone git@github.com:claude-commands/command-add-feature.git <clone-path>/command-add-feature
 
-# Create symlink
-ln -s ~/projects/claude-commands/command-add-feature/add-feature.md ~/.claude/commands/add-feature.md
+# Symlink (use full path to cloned repo)
+ln -s <clone-path>/command-add-feature/add-feature.md ~/.claude/commands/add-feature.md
 ```
 
 ## Usage
@@ -40,5 +40,5 @@ Where `123` is the GitHub issue number.
 ## Updates
 
 ```bash
-cd ~/projects/claude-commands/command-add-feature && git pull
+cd <clone-path>/command-add-feature && git pull
 ```
