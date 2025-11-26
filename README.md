@@ -14,7 +14,7 @@ ln -s <clone-path>/command-add-feature/add-feature.md ~/.claude/commands/add-fea
 
 ## Usage
 
-```
+```text
 /add-feature 123
 ```
 
